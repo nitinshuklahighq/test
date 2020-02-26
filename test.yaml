@@ -1,0 +1,6 @@
+---
+- hosts: test-nodes
+
+ tasks:
+   -name: "This is a test task"
+   command: /bin/hostname
